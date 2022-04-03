@@ -1,0 +1,41 @@
+body{
+    background-color: #EOEOEO;
+}
+
+div{
+    background-color: #66d9e8;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+button {
+    background-color:   #0D47A1;
+    border-radius: 5px; 
+    margin: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Acme', sans-serif;
+
+    }
+
+i.fas{
+    margin-right: 7px;
+}
+
+i.fa-coffee{
+    color: #FF9800; 
+}
+
+i.fa-check{
+    color: #FFEB3B; 
+}
+
+i.fa-trash{
+    color: #76FF03; 
+}
+
+button:hover{
+    background-color: rgb(61, 141, 233);
+}

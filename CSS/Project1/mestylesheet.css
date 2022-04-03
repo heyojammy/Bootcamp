@@ -1,0 +1,169 @@
+h2:nth-of-type(1){
+    background: green;
+    width: 200px;
+    text-align: left;
+    
+    
+
+}
+h2:nth-of-type(2){
+    background: yellow;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+
+}
+h2:nth-of-type(3){
+    background: red;
+    float: right;
+    width: 200px;
+    text-align: right;
+
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+p{
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+p.changeFont{
+    color: darkblue;
+}
+
+p:nth-of-type(3){
+    color: red;
+}
+
+
+
+.picture{
+   width: 100%;
+   display: block;
+   height: 100%;
+}
+
+div{
+    text-align: center;
+    border: solid red 5px;
+    height: 300px; 
+    margin: auto;
+    width: 
+}
+
+
+
+
+h1:nth-of-type(1){
+    /*task4*/ width: 25%;
+    /*task5*/ text-align: center;
+    /*task6*/ margin: auto;
+    /*task7*/ padding-left: 100px;
+              padding-right: 100px;
+              padding-top: 100px;
+              padding-bottom: 100px;
+}
+
+h1:nth-of-type(2){
+    /*task4*/ width: 200px;
+    /*task7*/ padding-right: 100px;
+}
+
+h1:nth-of-type(3){
+    /*task4*/ width: 50vw;
+    /*task5*/ text-align: right;
+    /*task6*/ margin: auto;
+              margin-top: 100px;
+              margin-bottom: 0px;
+    /*task7*/ padding-bottom: 100px;
+              padding-left: 100px;
+}
+
+h1:nth-of-type(4){
+    /*task6*/ margin: auto;
+    /*task6*/ width: 75%;
+    /*task7*/ padding: 100px 0px 0px 100px;
+}
+
+
+
+/*Task 1: */
+
+h1{
+    border: solid red 5px;
+}
+
+.cat{
+    background-color: #000000;
+}
+
+#dog{
+    color: #FFFFFF;
+}
+
+
+
+/*Task 2:*/
+#mouse{
+    color: yellow;
+    border: dashed blue 5px;
+}
+
+/*Task 3: */
+
+#bird{
+    color: lightgreen;
+    border: ridge green 5px;
+}
+
+#horse{
+    color:orange;
+}
+
+
+/*Task 1 Questions:
+    How does this look in your browser? 
+        black background, red border, white text*/
+
+/*Task 4 Questions:
+    What do you notice? 
+        The content overflows on the 200px
+        the vw background extends beyond the content but moves with the width of the browser
+        the percentage places the text on a new line once it reaches the max width of the border.
+
+    What are the differences between %, px, and vw? 
+        PX is an absolute unit - it is fixed and doesn't change based on any other element
+        % is a relative unit that is relative to the parent element. 
+        VW is a relative unit relative to the viewport's width
+    
+        % and VW are better for responsive design and for accessability standards - they scale 
+        up and down according to another element's size. 
+
+    Why are they important?
+        It's important to understand how they work to choose the best unit to work for your project & for responsive design. */
+
+       
+/*Task 6 Questions:
+    What happened? Why? How do you fix so you can center it?
+        Add a unit of width to it */
+
+/*Task 8 Questions:
+    Add a border to the div. What do you notice?
+        The border extends beyond the image
+
+    Add a width of 25% to your div. What is happening ot the image inside?
+        The image decreased in size along with the div
+
+    Notice the small white space under the image. Why is this happening?
+        It is because images are inline elements and are vertically aligned to the baseline and not the bottom of the baseline. 
+        To resolve this, you can specificy that the image should vertically align to the bottom
+        or set it to act as a block element using display: block*/
+
+/*Task 11 Questions:
+    Using the id, change the color of the third p tag content to red.
+Why did the other elements NOT change color?

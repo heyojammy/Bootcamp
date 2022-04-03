@@ -1,0 +1,10 @@
+
+.box {
+    height: 50%; 
+    width: 50%; 
+    background-color: rgba(100, 0, 0, 0.5);
+    font-size: 5em;
+    margin: 0 auto;
+    border: black 5px solid;
+    text-align: center;  
+}

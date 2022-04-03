@@ -1,0 +1,27 @@
+Perform the following using your CLI - NO GUI!!:
+
+On your desktop, create a folder called “drinks”.
+
+Inside of drinks, create three folders: Smoothies, FrozenDrinks and IcedSpecialtyDrinks.
+
+Rename the “Smoothies” folder to “PowerSmoothies”.
+
+Inside of PowerSmoothies, create three files:
+PeachAndBlueberry.txt,
+GreenPassion.txt, and
+Superfruit.txt.
+
+Inside of FrozenDrinks, create three files:
+WatermelonStrawberryLemonade.html,
+Caramel.html, and
+Mocha.html.
+
+Inside of IcedSpecialityDrinks, create four files:
+CaramelLatte.css,
+ChaiTeaLatte.css,
+CaffeMocha.css
+CaffeLatte.css.
+
+Delete CaffeLatte.css.
+
+That’s enough caffeine for today!

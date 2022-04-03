@@ -1,0 +1,15 @@
+{
+  "name": "superproject",
+  "version": "1.0.0",
+  "description": "Marvel Soopheroes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaimmika B",
+  "license": "ISC",
+  "dependencies": {
+    "marvel-api": "^1.1.0",
+    "marvel-characters": "^1.0.3"
+  }
+}

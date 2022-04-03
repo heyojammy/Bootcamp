@@ -1,0 +1,24 @@
+
+<%- include('partials/header.ejs') %> 
+
+
+<div class = "container">
+
+<form action="/price" method = "get" class = "chooseCurrency">
+    <input type="radio" name = "currency" value = "USD" id = "USD" checked> <!--checked makes USD the default-->
+        <label for = "USD">USD</label> <!-- label helps with screen readers. label for must be paired with ID attribute and the text in the quotation marks must match -->
+    <input type="radio" autocomplete='on' name = "currency" value = "GBP" id = "GBP">
+        <label for = "GBP">GBP</label>
+    <input type="radio" name = "currency" value =  "EUR" id = "EUR">
+        <label for = "EUR">EUR</label>
+
+    <div><input id = 'button' type = 'submit' value = 'Get Price'></div>
+ </form>
+
+    <p>Current BitCoin Price:</p>
+    <p><%- currencySymbol %> <%= cost %></p> 
+
+</div>
+
+
+<%- include('partials/footer.ejs') %> 

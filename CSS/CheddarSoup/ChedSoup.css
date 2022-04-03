@@ -1,0 +1,23 @@
+
+.container {
+    width: 800px;
+    position: relative; 
+    margin: 0 auto;
+}
+
+
+#cheddar { 
+    width: 100%;
+    height: 100%;
+}
+
+.container #text {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+

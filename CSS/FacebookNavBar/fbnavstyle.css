@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    background-color: #4267b2;
+    height: 90px;
+}
+
+#logo {
+    float: left;
+    color: white;
+    padding: 22px 60px;
+}
+
+.navbar a {
+    float: right;
+    padding: 33px 60px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #039BE5;
+    color: #FFD54F;
+}
+
+  h1:hover{
+      background: purple;
+  }
+  
+  button:hover{
+      color: red;
+  }
+
+  input:focus {
+      padding-bottom: 100px;
+      background: red;
+  }
+
+  button:active{
+      background: burlywood;
+      font-size: 40px;
+  }
+
+    h1:active {
+        font-size: 100px;
+    }
+
+    #submit {
+        display: block;
+        margin: 0 auto;
+        padding: 30px 90px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background: #5c6bc0;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 2px;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 6px #303F9F;
+    }
+
+    #submit:hover {
+        cursor: pointer;
+        box-shadow: 0 3px #303F9F;
+        top: 2px;
+    }
+
+    #submit:active {
+        box-shadow: none;
+        top: 6px;
+    }

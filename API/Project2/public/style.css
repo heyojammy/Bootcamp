@@ -1,0 +1,44 @@
+
+body {
+    background-color: white;
+}
+
+.background {
+    background-image: url(assets/filmreel.jpg);
+    background-position: fixed;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.landingText { 
+    color: white;
+    font-size: 3rem;
+}
+
+#nowPlaying {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background-color: #6082B6;
+    margin-bottom: 3vh;
+}
+
+.listFormat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.movieList { 
+    margin: 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}

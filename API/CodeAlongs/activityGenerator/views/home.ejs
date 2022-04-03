@@ -1,0 +1,33 @@
+
+<%- include('partials/header.ejs') %> 
+
+<div class="container">
+    <h1>Activity ゲットー (ง •̀_•́)ง</h1>
+    <div class="activity-div">
+      <form action="/random" method="get"> <!--produces data when button is clicked-->
+        <input type="submit" value="Random" class="btn btn-random">
+        <p>何かしよう!</p>
+      </form>
+    </div>
+     
+  
+<div>
+  <h3>Search by activity type:</h3>
+    <form action="/type" method ="get" class = "activityType">
+      <input type="radio" name ="type" value ="social" id ="social" checked> 
+          <label for = "default">Social</label> 
+        <input type="radio" name = "type" value = "recreational" id = "recreational">
+          <label for = "price">Recreational</label>
+      <input type="radio" name = "type" value = "diy" id = "busywork">
+          <label for = "accessibility">D.I.Y.</label>
+    </div>
+      <div>
+        <input id = 'button' class="btn" type ='submit' value = 'Search'>
+      </div>
+   </form>
+   
+  </div>
+
+
+<%- include('partials/footer.ejs') %> 
+

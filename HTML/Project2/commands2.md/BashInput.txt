@@ -1,0 +1,23 @@
+
+mkdir commands2.md
+
+mkdir ./commands2.md/drinks
+
+mkdir ./commands2.md/drinks/Smoothies && mkdir ./commands2.md/drinks/FrozenDrinks && mkdir ./commands2.md/drinks/IcedSpecialtyDrinks
+
+jaimmika @ students ~ $ mv ./Bootcamp/commands2.md/drinks/Smoothies ./Bootcamp/commands2.md/drinks/PowerSmoothies
+
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/PowerSmoothies/PeachAndBlueberry.txt
+
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/FrozenDrinks/WatermelonStrawberryLemonade.html
+
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/FrozenDrinks/Caramel.html && touch ./Bootcamp/commands2.md/drinks/FrozenDrinks/Mocha.html
+
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/IcedSpecialtyDrinks/CaramelLatte.css
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/IcedSpecialtyDrinks/ChaiTeaLatte.css
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/IcedSpecialtyDrinks/CaffeMocha.css
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/drinks/IcedSpecialtyDrinks/CaffeLatte.css
+
+jaimmika @ students ~ $ rm ./Bootcamp/commands2.md/drinks/IcedSpecialtyDrinks/CaffeLatte.css
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/BashInput.txt
+jaimmika @ students ~ $ touch ./Bootcamp/commands2.md/Project2Prompt.txt

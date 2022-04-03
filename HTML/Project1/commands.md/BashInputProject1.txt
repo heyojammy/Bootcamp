@@ -1,0 +1,26 @@
+
+jaimmika @ students ~ $ cd ./Bootcamp
+jaimmika @ students ~/Bootcamp $ cd ./Command\ Lines/
+jaimmika @ students ~/Bootcamp/Command Lines $ cd ./Project\ 1/
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1 $ mkdir soups
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1 $ cd ./soups
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ touch ChickenNoodle.html && touch BakedPotato.css
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ mkdir js
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ cd ./js
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups/js $ pwd
+/home/jaimmika/Bootcamp/Command Lines/Project 1/soups/js
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups/js $ cd ../
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ touch ./js/CreamyTomato.js
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ touch readme.txt
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ rm readme.txt
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups $ cd ./js
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups/js $ mv CreamyTomato.js BroccoliCheddar.js
+
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1/soups/js $ cd ../../
+jaimmika @ students ~/Bootcamp/Command Lines/Project 1 $ touch BashInputProject1.txt

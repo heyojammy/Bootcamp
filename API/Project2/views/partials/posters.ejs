@@ -1,0 +1,12 @@
+
+<% let poster = movie.poster_path ? `https://image.tmdb.org/t/p/w200/${movie.poster_path}`: false %>
+
+<div class="card, movieList" style="width: 20rem";>
+        <div class="card-body">
+              <h5 class="card-title"><%= movie.title %></h5>
+              <img class="card-img-top, poster" src="<%= poster %>" alt="<%= movie.title %>">
+              <p class="card-text"><%= movie.overview || "No Plot Available" %></p>
+              <p class="card-text">Rating: <%= movie.vote_average %> out of 10 stars</p>
+        </div>
+</div> 
+

@@ -1,0 +1,58 @@
+body {
+  background-color: #f0fcde;
+  font-family: 'Architects Daughter', cursive;
+  margin: 0;
+  height:  0;
+}
+
+.App {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 400px 400px;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+text-align: center; 
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:hover {
+color: 9B9E96; 
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: auto;
+}
+
+.vidtext{
+font-weight: bold;
+}
+
+.bodytext{ 
+
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/*scrollbar Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #ffffff;
+
+}
+
+/*scrollbar Handle */
+::-webkit-scrollbar-thumb {
+background: #9B9E96;
+}

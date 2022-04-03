@@ -1,0 +1,38 @@
+#x{
+    color: purple;
+    font-size: 50px;
+}
+
+#circle{
+    color: purple;
+    font-size: 50px;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.vertical{
+    border-left: solid grey 3px;
+    border-right: solid grey 3px;
+}
+
+.horizontal{
+    border-top: solid grey 3px;
+    border-bottom: solid grey 3px;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}

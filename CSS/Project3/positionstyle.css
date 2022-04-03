@@ -1,0 +1,107 @@
+body{
+    font-family: 'Mansalva', cursive;
+}
+
+div /*all divs*/ {
+    text-align: center;
+    margin: 0;
+    border: solid black 3px;
+} 
+
+div#circle {
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 65%;
+    left: 3%;
+}
+
+div#one {
+    background: red;
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#two {
+    background: yellow;
+    width: 40%;
+    height: 22%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+div#three {
+    background: green;
+    width: 25%;
+    height: 22%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div#four {
+    background: aqua;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+div#five {
+    background: lavender;
+    width: 15vw;
+    height: 22%;
+    position: absolute;
+    bottom: 0;
+    left: 25vw;
+    z-index: 1;
+}
+
+div#six {
+    background: orange;
+    width: 20%;
+    height: 22%;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    z-index: 1;
+}
+
+div#seven {
+    background: slateblue;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+div#eight {
+    background: pink;
+    width: 30%;
+    height: 65%;
+    position: absolute;
+    top: 203px;
+    right: 0;
+}
+
+div#nine {
+    background: purple;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    top: 203px;
+    right: 30%;
+}

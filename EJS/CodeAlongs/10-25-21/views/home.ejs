@@ -1,0 +1,18 @@
+
+    <!-- <%- %> syntax for partials-->
+    <%- include('partials/header.ejs') %>
+
+    <h1>Home Page</h1>
+
+    <% let name = 'Cardi B' %>
+
+    <h1><%= name %></h1>
+
+    <% let people = ['kevin', 'shelby', 'jamocha', 'parvatu', 'tuunuu']; %>
+    
+    <% people.forEach(el => { %> 
+        <h1><%= el %></h1>
+    <% }) %>
+
+    <%- include('partials/footer.ejs') %>
+

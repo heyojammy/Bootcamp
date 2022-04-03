@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="introReact.css">
+
+    <script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script type="text/babel">
+         
+        const Garfield = () => {
+            return (
+                <div className="theimage">
+                   <h1 className="name">Life</h1>
+                   <img src="Assets/cats.jpg"></img>
+                <h3>How does he feel?</h3> 
+                <Emotions />
+                <RandomBox />
+                </div>    
+            );
+        }
+
+        const Emotions = () => {
+            const theStyles = {fontSize: "24px"};
+            return (
+            <ul style={theStyles}>
+                    <li>Happy</li>    
+                    <li>Sad</li>
+                </ul>
+            )    
+        }
+
+        const RandomBox = () => {
+            const fontSize = Math.floor((Math.random() * 80)) + 20;
+            const backgroundColor = [
+                'red', 
+                'green', 
+                'blue',
+                'black'
+            ][Math.floor(Math.random() * 4)];  
+            const theStyles = {
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            height: '200px',
+                            width: '500px',
+                            color: 'white',
+                            fontSize: fontSize + "px",
+                            backgroundColor: backgroundColor
+                            }
+            return (
+                <div style={theStyles}>
+                   Random Box 
+                </div>    
+            )
+        }
+
+      ReactDOM.render(<Garfield />, document.getElementById("app")); 
+      //Collects all the data from the garfield function and displays it in the div with ID 'app' declared above. 
+    </script>
+</body>
+</html>

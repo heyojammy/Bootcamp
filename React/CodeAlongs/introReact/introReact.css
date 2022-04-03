@@ -1,0 +1,28 @@
+body {
+    background-color: #FFCFB9; 
+}
+
+#app {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+
+}
+
+.name {
+    font-size: 3em;
+    margin: .25em;
+}
+
+.image {
+    font-family:Arial, Helvetica, sans-serif;
+
+
+    width: 700px;
+    padding: 4px 20px 10px 20px; 
+}
+
+li {
+   list-style: none;
+}

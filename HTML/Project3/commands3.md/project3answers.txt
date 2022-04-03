@@ -1,0 +1,41 @@
+What command would you use to clear the screen? 
+    clear
+
+What is the shortcut command to open a new tab in your terminal? 
+    crtl+shift+`
+
+What key would you use to scroll through previous commands you’ve typed before? 
+    Up & down arrows
+
+You have three txt files and an empty folder on your desktop. Write a single line command that will move all three txt files into the folder.
+    mv file1 file2 file3 EmptyFolder
+
+You want to inspect the differences between two txt files: myfile1.txt and myfile2.txt. 
+     diff myfile1.txt myfile2.txt <--prints differences in-line 
+
+Write a command that would display the differences in content between these two files.
+    sdiff myfile1.txt myfile2.txt <--shows differences side by side 
+
+Write a command that would delete this folder and all of the contents inside.
+    rm -r commands3.md 
+
+What is the command to list all files, including hidden files? Write a command that displays all .css files in a folder.
+    ls -a or ls -al
+
+What is the command to find a file by name on your disk (or some other storage medium)?
+    find -name fileName.txt 
+
+What is the command to find a file by content in your folder on the disk? That is, how do you search for a word or phrase in the file contents?
+
+
+Use a bash command to create a file named YourName.txt with no content in it. 
+    touch YourName.txt
+ 
+        Look at the permissions.
+            ls -l YourName.txt
+
+        Now change the permissions so everyone can read it and execute it.
+            chmod u=rx,g=rx,o=rx YourName.txt
+
+        Now change the permissions so only you can read it.
+            chmod u=r YourName.txt

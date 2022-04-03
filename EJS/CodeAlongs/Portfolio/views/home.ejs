@@ -1,0 +1,30 @@
+<!-- any place that we are going to display an ejs tag that was declared before we need to define it here -->
+<%-include("partials/header", {title: "- Home", body_id: "home", nav_bg: "light"}) %> 
+ 
+<div class= "container">
+<!--Row One-->
+    <div class="row">
+        <div class="col">
+        <h1 class="text-center mt-5 pt-5">JB Portfolio</h1>
+        </div>
+    </div>
+
+<!--Row Two-->
+    <div class="row">
+        
+        <% data.forEach(element => { %>
+            
+      <div class ="col">
+          <div class="img_container">
+              <img src=<%=element.src%> alt=<%=element.alt%>>
+          </div>
+               
+                <a href=<%= element.href%> target='_blank'>
+                     <h2 class="text=center mt-3 mb-5"><%= element.content%></h2> 
+                    </a>
+            </div>
+        <%})%>
+     
+    </div>
+</div>
+ <%-include("partials/footer") %> 

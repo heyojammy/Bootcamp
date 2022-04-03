@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf0f2;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #eaf0f2;
+}
+
+ul.navMain {
+    background: #263238;
+    width: 100%;
+}
+
+li#logo {
+    padding: 15px 40px 15px 0;
+    line-height: 45px;
+    font-size: 3rem;
+    display: inline-block;
+    text-align: center; 
+    position: static;
+}
+
+li.mainListItem {
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 55px;
+    position: relative;
+}
+
+.navMain a:hover {
+    color: #546E7A;
+}
+
+li.mainListItem .dropDown {
+    min-width: 100%; /* Sets width of the dropdown */
+    display: none;
+    position: absolute; 
+    right: -30px;
+}
+
+.dropListItem {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    background: #263238;
+    border-top: 1px solid #555; 
+}
+
+.mainListItem:hover .dropDown {
+    display: block;	/* Displays the dropdown */
+    z-index: 999;
+}
+
+div.Welcome h2 {
+    padding: 10px 5px;
+}
+
+.Footer {
+    background: #263238;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    margin-top: 75px;
+}
+
+.Footer li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Footer a:hover {
+    color: #CFD8DC;
+}
+
+.TheNews {
+    font-size: 2rem;
+    color: #B0BEC5;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #B0BEC5;
+}
+
+p.content {
+    font-size: 1rem;
+}

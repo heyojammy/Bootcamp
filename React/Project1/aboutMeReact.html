@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <title>About Jamaica</title>
+
+</head>
+<body>
+
+    <div id="content"></div>
+
+    <script type="text/babel">
+
+const AboutMe = () => {
+    return (
+        <div>
+            <h1>About Jaimmika</h1>
+
+
+            <img className="selfie" src="Assets/jaimmika2.jpg"></img>
+
+            <p>Hey there! My name is Jaimmika <em>(jay-mih-kuh)</em>. I am 30 years old and am from the land up yonder. I was born in a tiny
+            town called Bad Axe in the great Mitten State, Michigan. My hometown has a grand total of <strong>3,000 people</strong>, and 
+            my graduating class in high school was a whopping 100 students. <strong>Wowowowow</strong>.</p>
+
+            <p>As a youg, angsty teen, I got into a group of friends comprised of misfits - the emos, the goths, the weebs. Beautiful alt people. 
+            I got into anime and was pretty much a big ol' nerd and developed big dreams of going to Japan. </p>
+
+            <p>So I went to college and...well...went to Japan! Loved it so much I decided I would go back. So I did that too. I taught English for 
+            two years over there, and then came back to America (still wondering why I did that lol).</p>
+
+            <p>And now I'm here, in big ol' Texas. I've learned how to say "y'all" and super love TacoDeli's breakfast tacos. I somewhat know what migas is.</p> 
+
+        <FaveThings /> 
+        <Plan />
+    </div>   
+    )
+}
+
+const FaveThings = () => {
+    const styling = {fontSize: "14px"};
+    return (
+    <div>
+        <h3>Jaimmika's Fave Things:</h3>
+        <ul style={styling}>
+            <li>Cats</li>
+            <li>Tea</li>
+            <li>Being outside</li>
+            <li>Pumpkin flavored everything</li>
+            <li>Pumpkin flavored everything and also Fall</li>
+        </ul>
+    </div>
+    )   
+}
+
+const Plan = () => {
+    const styling = {fontSize: "14px"};
+    return (
+    <div>
+        <h3>Jaimmika's Five Year Plan:</h3>
+        <ol style = {styling}>
+            <li>Complete ACC Software Development Bootcamp</li>
+            <li>Get hackerman job</li>
+            <li>Make money</li>
+            <li>Profit <em>(aka afford to continue living in Austin)</em></li>
+        </ol>
+    </div>
+    )    
+}
+
+    ReactDOM.render(<AboutMe />, document.getElementById("content")); 
+
+    </script>
+
+</body>
+</html>

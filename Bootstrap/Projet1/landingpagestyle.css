@@ -1,0 +1,28 @@
+body {
+    background-image: url("Assets/japancity.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+    .welcomeText {
+        color: white;
+        height: 80vh;
+    }
+
+    .welcomeText p {
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 5px; 
+    }
+    .navbar {
+        background-color: #112738;
+    }
+
+.navbar a { 
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #5bc0de;
+    box-shadow: 0 0 0 0.1rem #5bc0de;
+} 

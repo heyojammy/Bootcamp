@@ -1,0 +1,31 @@
+The goal of this project is to get you familiar with how to use the CLI.
+
+Create a file called commands.md
+
+You can paste your queries into the file and submit to Github. You will not be submittiing anything else.
+
+Perform the following using your CLI - NO GUI!!:
+
+On your desktop, create a folder named “soups”.
+
+Go inside of your soups folder. Create a file called “ChickenNoodle.html” and “BakedPotato.css”
+
+While you are inside of the soups folder, create another folder called “js”.
+
+Go inside of the js folder.
+
+Where are we? Display the current path that we are on.
+
+Now go back 'up' to the soups folder.
+
+Create a file called “CreamyTomato.js” and put it in the js folder while still in the soups folder.
+
+Create a file called “readme.txt.” in the soups folder.
+
+On second thought, maybe we do not need a readme file right. Delete “readme.txt”.
+
+Go into the js folder.
+
+You decide you are not in the mood for creamy tomato. Rename “CreamyTomato.js” to “BroccoliCheddar.js”.
+
+You’re done!

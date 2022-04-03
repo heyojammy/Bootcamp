@@ -1,0 +1,9 @@
+body {
+    background-color: powderblue;
+}
+
+.selfie {
+    height: 500px;
+    width: 450px; 
+    text-align: center;
+}

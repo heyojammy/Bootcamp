@@ -1,0 +1,17 @@
+
+
+<%- include('partials/header.ejs') %>
+
+<div id="nowPlaying">
+    <h1>NOW PLAYING:</h1>
+</div>
+
+<div class="listFormat">
+
+<% data.forEach(element => { %>
+    <%- include('partials/posters.ejs', {movie: element}) %>
+    <% }) %>
+
+</div>
+
+<%- include('partials/footer.ejs') %>

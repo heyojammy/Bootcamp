@@ -1,0 +1,120 @@
+
+/* All Pages */
+
+body, html {
+    height: 100%;
+    }
+
+a {
+        text-decoration: none;
+        color: #eaf0f2;
+}
+
+.introText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.introText h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black; 
+}
+
+
+/* Nav Bar */
+.fa-mug-hot {
+    color: #eaf0f2; 
+    font-size: 2rem;
+}
+
+/* Main Page */
+
+.mainBackground {
+    background: url("Assets/japanteahouse.jpg") center center no-repeat;
+    color: black;
+    font-weight: bold; 
+    font-size: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* About Page */
+
+#aboutBackground {
+    background: url("Assets/glassteapot.jpg") center center no-repeat;
+    color: white; 
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+}
+
+.aboutContent1 {
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+.aboutContent2 {
+    background: #1b8dcf;
+    color: white;
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+.aboutContent3 {
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+/* Contact Page */
+
+#contactBackground { 
+    background: url("Assets/looseteastrainer.jpg") center center no-repeat;
+    color: white; 
+    height: 100%;
+    width: 100%;
+    display: flexbox; 
+    align-items: center; 
+}
+
+.contactUs {
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+
+
+
+/* Footer */
+
+#Footer {
+    background: #887a28;
+    font-size: 1rem;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    color: white; 
+}
+
+#footerMug {
+    color: lavender;
+    font-size: 5em; 
+}
+
+.teaPlex {
+    font-size: 2rem;
+    color: #B0BEC5;
+}
+
+#Footer ul {
+    list-style-type: none;
+    text-align: left;
+}

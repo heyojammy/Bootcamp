@@ -1,0 +1,14 @@
+{
+  "name": "npmpractice",
+  "version": "1.0.0",
+  "description": "This do be my cool dude hackerman project ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaimmika B",
+  "license": "ISC",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}
